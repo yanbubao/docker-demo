@@ -296,3 +296,13 @@ docker run         根据某个镜像创建容器
 docker exec -it    进入到某个容器中并交互式运行
 ```
 
+### MacOS安装过程出现的问题
+
+Vagrant生成虚拟机eh1的IP地址不显示且主机无法ping通虚拟机
+解决参考：
+https://blog.csdn.net/weixin_43421663/article/details/123776607
+https://www.thinbug.com/q/29003153
+https://unix.stackexchange.com/questions/188413/not-able-to-resolve-ip-address-for-eth1-in-vagrant-vm
+
+
+
